@@ -3,7 +3,7 @@ import HomePage from './Components/HomePage'
 const App = () => {
   return (
     <div>
-      <HomePage></HomePage>
+      <HomePage/>
     </div>
   )
 }

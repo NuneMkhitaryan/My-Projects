@@ -4,21 +4,28 @@ const HomePage = () => {
   return (
     <div className='App'>
         <h1>Home Page</h1>
-        <Card
+        <Card  
         className="cardclass"
-        WrapperElement="menu"
+        WrapperElement={()=>{
+          return <div>
+          <h4>name is Amel</h4>
+          <p>age 40y.</p>
+          </div>
+        }}
         title="Card 1"
-        ></Card>
-        <Card
+        >
+        
+        </Card>
+        {/* <Card
         className="cardclass"
-        WrapperElement="menu"
+        // WrapperElement="menu"
         title="Card 2"
-        ></Card>
+        />
         <Card
         className="cardclass"
-        WrapperElement="menu"
+        // WrapperElement="menu"
         title="Card 3"
-        ></Card>
+        /> */}
     </div>
   )
 }
