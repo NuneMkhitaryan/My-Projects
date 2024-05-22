@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <main>
+        <div class="menu_logo">
+         <img src="imges/logo menu.png" alt="">
+        </div>
+       
+        <div class="menu">
+         <h2>Duplicate</h2>
+         <h2>Merge</h2>
+         <h2>Export as XLS</h2>
+         <h2>Convert to a lead</h2>
+         <h2>Delete</h2>
+         <hr>
+         <h2>Share feedback <strong>NEW</strong></h2>
+         <h2>Learn more about beta <strong>NEW</strong></h2>
+         <hr>
+         <h2>Manage sidebar sections</h2>
+         <hr>
+         <h2>Manage apps' visibility</h2>
+         <h2 class="create_job"><strong>W</strong> NEW Create a job</h2>
+        </div>
+       <div class="form_page">
+        <div class="start">
+         <h3>New Create a job</h3>
+         <h3 class="close_form">X</h3>
+       </div>
+       <form>
+        <div class="form_add_job">
+          <div class="client_details">
+           <h4>Client details</h4>
+           <input placeholder="First name" type="text" name="firstname" required>
+           <input placeholder="Last name" type="text" name="lastname" required>
+           <input placeholder="Phone" type="tel" name="phone" required>
+           <input placeholder="Email (optional)" type="email" name="email" required>
+          </div>
+       
+          <div class="job_details">
+           <h4>Job details</h4>
+           <select required>
+             <option selected hidden>Job type</option>
+             <option >полный рабочий день</option>
+             <option>неполный рабочий день</option>
+             <option >удаленный</option>
+             <option >свободный график</option>
+           </select>
+           <select required>
+             <option selected hidden>Job source</option>
+             <option >hh.ru</option>
+             <option >Habr.com/ru</option>
+           </select>
+           <textarea name="" placeholder="Job description (optional)"></textarea>
+          </div>
+       
+          <div class="service_location">
+           <h4>Service location</h4>
+           <input type="text" name="address" placeholder="Address" required>
+           <input type="text" name="city" placeholder="City" required>
+           <input type="text" name="state" placeholder="State" required>
+           <input type="text" name="zipcode" placeholder="Zip code" required>
+           <select name="area" required>
+             <option selected hidden>Area</option>
+           </select>
+          </div>
+       
+          <div class="schedueld">
+           <h4>schedueld</h4>
+           <input required type="date" name="date">
+           <input required type="time" name="starttime">
+           <input required type="time" name="endtime">
+           <select name="testselect" required>
+             <option selected hidden>Test select</option>
+           </select>
+          </div>
+        </div>
+        <div class="submit_buttons">
+         <input type="submit" value="Create job">
+         <button>Save info</button>
+        </div>
+        </form>
+       </div>
+         </main>  
+</body>
+</html>
